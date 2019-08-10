@@ -1,0 +1,29 @@
+.article img {
+  width: 300px;
+  height: 150px;
+}
+
+.btn {
+  padding: 0.5rem 0.75rem;
+  margin-right: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+
+@media (max-height: 568px) {
+  .right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .article img {
+    flex: 2;
+    width: 300px;
+    height: 150px;
+    margin-right: 0.2rem;
+  }
+
+  p {
+    text-align: center;
+  }
+}
